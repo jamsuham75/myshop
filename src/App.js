@@ -17,9 +17,10 @@ function App() {
   let navigate = useNavigate();
   let [재고] = useState([11,12,13]);
 
+
   return (
     <div className="App">
-
+      {shoes[0].title}
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home">ShoesShop</Navbar.Brand>

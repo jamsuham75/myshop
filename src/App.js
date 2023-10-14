@@ -98,10 +98,6 @@ function App() {
   );
 }
 
-function Test(){
-  console.log("테스트");
-}
-
 function About() {
   return (
     <div>
